@@ -6,6 +6,7 @@
     grid-template-columns: 1fr 270px;
     grid-template-rows: 56px 1fr;
     gap: 5px;
+    padding: 35px;
 }
 
 .video-destaque {
@@ -13,8 +14,19 @@
 }
 
 .video-destaque img {
-    width: 543px;
     height: 217px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.video-destaque .titulo {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.video-destaque .visualizacoes {
+    font-size: 14px;
+    margin-bottom: 7px;
 }
 
 .propaganda {
