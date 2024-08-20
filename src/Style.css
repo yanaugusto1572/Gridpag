@@ -1,0 +1,38 @@
+.conteiner {
+    background-color: #F7F7F7;
+    padding: 20px;
+    display:grid ;
+    grid-template-columns: 60% auto;
+    grid-template-areas: "area1 area2""area1 area3""area1 area4""area1 area5";
+}
+
+.area1 {
+    grid-area: area1;
+    background-color: aqua;
+}
+
+.area2 {
+    grid-area: area2;
+    background-color: #C4C4C4;
+}
+
+.area3 {
+    grid-area: area3;
+    background-color: orange;
+}
+
+.area4 {
+    grid-area: area4;
+    background-color: green;
+}
+
+.area5 {
+    grid-area: area5;
+    background-color: yellow;
+}
+
+/* Telas */
+.tela1 {
+    background-color: #C4C4C4;
+    width: 200px;
+}
