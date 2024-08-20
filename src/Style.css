@@ -1,74 +1,52 @@
 .conteiner {
-    background-color: #F7F7F7;
-    padding: 20px;
-    display:grid ;
-    grid-template-columns: 60% auto;
-    grid-template-rows: 100px;
-    grid-gap: 10px 10px;
-    grid-template-areas: "area1 area2""area1 area3""area1 area4""area1 area5";
-    margin: 10px;
+    background-color: #777777;
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "video-destaque propaganda""video-destaque videos-sugeridos";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    gap: 5px;
 }
 
-.area1 {
-    grid-area: area1;
-    ;
-
+.video-destaque {
+    grid-area: video-destaque;
 }
 
-.area2 {
+.video-destaque img {
+    width: 543px;
+    height: 217px;
+}
+
+.propaganda {
+    grid-area: propaganda;
+}
+
+.propaganda img{
+    width: 270px;
+    height: 56px;
+}
+
+.videos-sugeridos {
+    grid-area: videos-sugeridos;
+}
+
+.videos-sugeridos img {
+    width: 101px;
+    height: 71;
+}
+
+.videos-sugeridos .video {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-area: area2;
-    background-color: #C4C4C4;
+    gap: 5px;
+    margin-bottom: 15px;
 }
 
-.area3 {
-    display: flex;
-    justify-content: center;
-    grid-area: area3;
-    justify-content: space-between;
+.videos-sugeridos .video .titulo {
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
-.area4 {
-    display: flex;
-    grid-area: area4;
-    ;
-}
-
-.area5 {
-    display: flex;
-    grid-area: area5;
-    ;
-}
-
-/* Telas */
-.tela1 {
-    background-color: #C4C4C4;
-    width: 600px;
-    height: 200px;
-    color: #C4C4C4;
-    padding: 20px;
-    margin: 20px;
-}
-
-.tela3 {
-    background-color: #C4C4C4;
-    width: 200px;
-    height: 100%;
-    color: #C4C4C4;
-}
-
-.tela4 {
-    background-color: #C4C4C4;
-    width: 200px;
-    height: 100%;
-    color: #C4C4C4;
-}
-
-.tela5 {
-    background-color: #C4C4C4;
-    width: 200px;
-    height: 100%;
-    color: #C4C4C4;
+.videos-sugeridos .video p {
+    font-size: 11px;
+    margin-bottom: 5px;
 }
