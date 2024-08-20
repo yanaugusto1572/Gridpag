@@ -3,36 +3,72 @@
     padding: 20px;
     display:grid ;
     grid-template-columns: 60% auto;
+    grid-template-rows: 100px;
+    grid-gap: 10px 10px;
     grid-template-areas: "area1 area2""area1 area3""area1 area4""area1 area5";
+    margin: 10px;
 }
 
 .area1 {
     grid-area: area1;
-    background-color: aqua;
+    ;
+
 }
 
 .area2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: area2;
     background-color: #C4C4C4;
 }
 
 .area3 {
+    display: flex;
+    justify-content: center;
     grid-area: area3;
-    background-color: orange;
+    justify-content: space-between;
 }
 
 .area4 {
+    display: flex;
     grid-area: area4;
-    background-color: green;
+    ;
 }
 
 .area5 {
+    display: flex;
     grid-area: area5;
-    background-color: yellow;
+    ;
 }
 
 /* Telas */
 .tela1 {
     background-color: #C4C4C4;
+    width: 600px;
+    height: 200px;
+    color: #C4C4C4;
+    padding: 20px;
+    margin: 20px;
+}
+
+.tela3 {
+    background-color: #C4C4C4;
     width: 200px;
+    height: 100%;
+    color: #C4C4C4;
+}
+
+.tela4 {
+    background-color: #C4C4C4;
+    width: 200px;
+    height: 100%;
+    color: #C4C4C4;
+}
+
+.tela5 {
+    background-color: #C4C4C4;
+    width: 200px;
+    height: 100%;
+    color: #C4C4C4;
 }
